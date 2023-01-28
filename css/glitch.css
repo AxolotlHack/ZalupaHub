@@ -14,12 +14,6 @@ div.glitch {
   line-height: 1;
 }
 
-button {
-  position: fixed;
-  left: 50%;
-  top: 20%;
-}
-
 .glitch {
   color: white;
   font-size: 100px;

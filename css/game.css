@@ -1,6 +1,48 @@
 
+/*/ Script /*/
+
+.dfasdfd {
+  position: relative;
+  top: 3%;
+}
+.scripts {
+  position: relative;
+  top: 0%;
+  left: 10%;
+  font-size: 35px;
+  color:white;
+}
+.script {
+  position: relative;
+  top: 0%;
+  left: 12%;
+  font-size: 20px;
+  color:white;
+}
+
+/*/ Roblox Place /*/
+
+.sdadasd {
+  position: relative;
+  top: 8%;
+}
+.roblox {
+  position: relative;
+  top: 0%;
+  left: 10%;
+  font-size: 35px;
+  color:white;
+}
+.place {
+  position: relative;
+  top: 0%;
+  left: 12%;
+  font-size: 20px;
+  color:white;
+}
 
 
+/*/ Glich /*/
 
 @font-face {
     font-family: Cyber;
@@ -15,12 +57,6 @@
   div.glitch {
     margin-bottom: 0;
     line-height: 1;
-  }
-  
-  button {
-    position: fixed;
-    left: 50%;
-    top: 20%;
   }
   
   .glitch {
