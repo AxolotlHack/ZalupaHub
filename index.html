@@ -1,19 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Zalupa Hub</title>
-        <link rel="stylesheet" href="css/glitch.css" />
-        <link rel="stylesheet" href="css/main.css" />
-    </head>
-    <body>
-        <div class="glitch" data-text="Залупа Хаб">
-            <div class="main-text">
-                Zalupa Hub
-            </div>
+<html>
+<head>
+  <title>Мой HTML документ</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <header>
+    <div class="left-section">  
+      <div class="main-text">
+          Zalupa Hub
+      </div>
+    </div>
+    </div>
+    <div class="right-section">
+      <nav>
+        <ul>
+          <li><a onclick="openGame()">Game</a></li>
+          <li><a onclick="openScript()">Script</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div id="Script" class="Script">
+    <div class="Script-content">
+      <span class="close" onclick="closeScript()">&times;</span>
+      <div class="text-container">
+        <div id="textToCopy" class="script">loadstring(game:HttpGet('https://raw.githubusercontent.com/AxolotlHack/Zalupa-Hub/main/Zalupa%20Hub.lua'))()</div>
+        <button onclick="copyText()" class="copy-button">
+            <img src="copy-icon1.png" alt="Иконка копирования">
+        </button>
+      </div>
+    </div>
+  </div>
+  <div id="Game" class="Game">
+    <div class="Game-content">
+      <span class="close" onclick="closeGame()">&times;</span>
+      <div class="text-container">
+        <div class="games">
+          <div>Drive World</div>
+          <div>Mine Racer</div>
+          <div>Skala Simulator</div>
         </div>
-        <form action="game.html" method="GET">
-            <button class="Script_Button" type="submit" >Script</button>
-        </form>
-    </body>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
