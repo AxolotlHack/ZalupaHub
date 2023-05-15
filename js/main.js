@@ -20,12 +20,12 @@ function openGame() {
   
     navigator.clipboard.writeText(text)
     .then(() => {
-    console.log("Текст скопирован в буфер обмена: " + text);
-    alert("Текст скопирован в буфер обмена: " + text);
+    console.log("The script was successfully copied to the clipboard! " + text);
+    alert("The script was successfully copied to the clipboard!");
     })
     .catch((error) => {
-    console.error("Ошибка при копировании текста: ", error);
-    alert("Ошибка при копировании текста: " + error);
+    console.error("Script copy error: " + error);
+    alert("Script copy error!");
     });
   }
   
